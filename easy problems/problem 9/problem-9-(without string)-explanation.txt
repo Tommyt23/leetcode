@@ -1,0 +1,11 @@
+in order to check if the value is a palindrome you would need to create a variable to store the reversed value this can be set at 0 to begin with.
+
+1. in order to reverse the value you need to find the digit value of the original number which can be found by using modulus.
+
+2. next you would need to multiply the reversed value by 10 whilst adding the digit to the valueand then add the digit value to the reversed value .
+
+3. you need to divide the original value by 10 in order to be able to find the next value in the number.
+
+these three steps would need to be replaced until the original value is equal to 0
+
+once this has occured you can then return the reversed value.
