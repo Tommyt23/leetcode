@@ -1,0 +1,4 @@
+first you sill need to set the value x to a string.
+as x is now a string you are able to reverse the string using [::-1]
+
+last you need to check if the reversed value is equal to that of the original if it is then the program will return True else false.
