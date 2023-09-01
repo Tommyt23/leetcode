@@ -1,0 +1,8 @@
+first check if the list is empty.
+
+loop through each item in the list.
+if item is less than the smallest price set that to the min val
+if not check the profit that the user would make if they were to sell at that point
+following this check you need to check if the profit they make is greater than profit that they may have had earlier.
+
+using this method i got a speed of 779ms and 27.3mb
