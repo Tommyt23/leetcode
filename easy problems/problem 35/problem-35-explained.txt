@@ -1,0 +1,8 @@
+with python there are built in methods that allow you to find the index of a value in a list.
+
+if the value is not found then it will return a ValueError.
+making use of try and except conditions you are able to add the value to the list. 
+by using pythons sort method that sorts the list this will keep the time complexity under the required O(log n)
+you can then repeat the use of the index method and return the output value.
+
+using this method i got a speed of 45ms and 17.1mb
