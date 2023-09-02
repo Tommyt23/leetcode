@@ -9,3 +9,5 @@ in order to check if the value is a palindrome you would need to create a variab
 these three steps would need to be replaced until the original value is equal to 0
 
 once this has occured you can then return the reversed value.
+
+using this method i got a speed of 53ms and 16.5mb

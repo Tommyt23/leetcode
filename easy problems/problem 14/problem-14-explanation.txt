@@ -1,0 +1,17 @@
+the easiest way i found to do this problem was to create the exceptions to begin with.
+
+the two exceptions were if the list is only one item then the entire item will be the prefix.
+the second exception is if the list includes an item that has a length of 0.
+
+in order to identify the first exception take the list and check the length of it if the length is equal to 1 then there is only one item in the list.
+in order to identify the second exception you can sort the list by reversed length and check the length of the first item.
+
+the main part of the code will make use of the reversed list by checking the length of the first item.
+this will act as the max potential length of the prefix as it is the shortest item in the list.
+in order to compare the letters you need to have an index of the character you will be comparing to this can be called current_char.
+for the length of the list you will need to compare the current_char with the other words character with the same index.
+if the current_char does not match the other words character then you will need to be able to break the loop.
+if the character does match then it will need to be added on to the end of a variable preferably named prefix (try to use the += operator).
+this will need to be output at the end if the loop that you use comes to an end and the current_char does match all other words characters.
+
+using this method i got a speed of 39ms and 16.5mb

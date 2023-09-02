@@ -11,3 +11,5 @@ for this example this way the first numbers that would be added together is 2 an
 
 next would be 2 and 7 this does equal 9 so it would then have to check if the index is the same. this would be false and thus it would then return the two index values to the terminal.
 this should allow the user to produce correct test values.
+
+using this method i got a speed of 84ms and 15.2mb
