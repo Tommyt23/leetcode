@@ -1,0 +1,7 @@
+for this problem i used pythons built in function set in order to create a list of nums values without duplicates
+
+if you only use set then the list will look like: set([1,2,3])
+if used in combination with the list function it will look like a normal list
+
+in order to check if there is any difference the easiest way would be in order to check the length of the lists if the length of the lists are different then there is multiples in the list
+at which point we can then return true
