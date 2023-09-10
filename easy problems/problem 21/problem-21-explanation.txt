@@ -1,0 +1,11 @@
+the approach i had taken in order to complete this problem was making use of the process behind merge sort
+
+first you need to check if either list is empty as if either one is empty the other list can just be returned as that list is already sorted
+
+next using the logic behind a merge sort break each of the lists down into halves until each list has a length of 1
+then compare each of the first item in two of the arrays and recursivly sort each list until you only have 1 list 
+
+if done correctly you do not need to worry about ordering it at this point as merge sort algorithms will sort the list as they merge the two lists
+
+using this method i got a speed of 21ms and 13.3mb
+
