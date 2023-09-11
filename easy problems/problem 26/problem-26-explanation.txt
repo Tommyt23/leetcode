@@ -1,0 +1,9 @@
+as always check if the list is empty. if the list is empty you can return the list as is
+
+next you need a counter that records how many items are in the new array
+
+in order to find out if the list already has the same value in the new list loop through the original list.
+for each item in the list check if the item is in the new list.
+the problem requires for the new list to be in the original list thus by making the original list equate to the new list it should be sufficient.
+
+using this method i got a speed of 51ms and 14.9mb
