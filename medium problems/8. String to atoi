@@ -1,0 +1,23 @@
+import re
+
+class Solution:
+    def myAtoi(self, s: str) -> int:
+        # Remove leading whitespaces
+        s = s.lstrip()
+
+        # Define regex pattern for extracting number with optional +/- sign
+        match = re.match(r'^([+-]?\d+)', s)
+        if not match:
+            return 0  # No valid number found
+        
+        # Extract the number string and convert to integer
+        num_str = match.group(1)
+        val = int(num_str)
+
+        if val <= -2**31:
+            val = -2**31
+        if val >= 2**31-1:
+            val = 2**31-1
+        return val
+
+# 3ms 16.54 mb
